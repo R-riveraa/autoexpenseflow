@@ -465,7 +465,64 @@
     </div>
   </div>
 </section>
-
+<!-- DATA FLOW SECTION -->
+<section class="section" id="data-flow">
+  <div class="reveal">
+    <p class="section-label">Transparency</p>
+    <h2 class="section-title">Exactly what happens to your data</h2>
+    <p class="section-sub">Every step uses a service you already know and trust. Nothing goes anywhere you don't own.</p>
+  </div>
+  <div class="reveal" style="margin-top: 2rem; background: var(--white); border: 1px solid var(--border); border-radius: 16px; padding: 2rem; overflow-x: auto;">
+    <svg width="100%" viewBox="0 0 680 560" xmlns="http://www.w3.org/2000/svg" style="font-family: var(--sans); max-width: 680px; display: block; margin: 0 auto;">
+      <defs><marker id="dfarrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+      <text x="340" y="28" text-anchor="middle" style="font-size:18px;font-weight:500;fill:var(--black)">How your data flows</text>
+      <text x="340" y="48" text-anchor="middle" style="font-size:12px;fill:var(--gray)">Every step, every service — nothing hidden</text>
+      <rect x="220" y="66" width="240" height="54" rx="8" fill="var(--white)" stroke="var(--black)" stroke-width="0.75"/>
+      <text x="340" y="87" text-anchor="middle" style="font-size:13px;font-weight:500;fill:var(--black)">You upload a photo</text>
+      <text x="340" y="106" text-anchor="middle" style="font-size:11px;fill:var(--gray)">Dropped into your Google Drive inbox</text>
+      <line x1="340" y1="120" x2="340" y2="144" stroke="var(--black)" stroke-width="1" marker-end="url(#dfarrow)"/>
+      <rect x="180" y="144" width="320" height="54" rx="8" fill="#f5f5f5" stroke="var(--black)" stroke-width="0.75"/>
+      <text x="340" y="165" text-anchor="middle" style="font-size:13px;font-weight:500;fill:var(--black)">Google Drive detects new file</text>
+      <text x="340" y="184" text-anchor="middle" style="font-size:11px;fill:var(--gray)">Triggers the automation — Google servers only</text>
+      <line x1="340" y1="198" x2="340" y2="222" stroke="var(--black)" stroke-width="1" marker-end="url(#dfarrow)"/>
+      <rect x="180" y="222" width="320" height="64" rx="8" fill="var(--white)" stroke="var(--black)" stroke-width="0.75"/>
+      <text x="340" y="243" text-anchor="middle" style="font-size:13px;font-weight:500;fill:var(--black)">Make.com reads the file</text>
+      <text x="340" y="261" text-anchor="middle" style="font-size:11px;fill:var(--gray)">Automation platform — passes image to</text>
+      <text x="340" y="277" text-anchor="middle" style="font-size:11px;fill:var(--gray)">Google Gemini for reading</text>
+      <line x1="340" y1="286" x2="340" y2="310" stroke="var(--black)" stroke-width="1" marker-end="url(#dfarrow)"/>
+      <rect x="180" y="310" width="320" height="64" rx="8" fill="#f5f5f5" stroke="var(--black)" stroke-width="0.75"/>
+      <text x="340" y="331" text-anchor="middle" style="font-size:13px;font-weight:500;fill:var(--black)">Google Gemini reads every line item</text>
+      <text x="340" y="349" text-anchor="middle" style="font-size:11px;fill:var(--gray)">Extracts vendor, items, prices, dates</text>
+      <text x="340" y="365" text-anchor="middle" style="font-size:11px;fill:var(--gray)">Google servers — no human ever sees this</text>
+      <line x1="340" y1="374" x2="340" y2="398" stroke="var(--black)" stroke-width="1" marker-end="url(#dfarrow)"/>
+      <rect x="180" y="398" width="320" height="64" rx="8" fill="var(--white)" stroke="var(--black)" stroke-width="2"/>
+      <text x="340" y="419" text-anchor="middle" style="font-size:13px;font-weight:500;fill:var(--black)">Data logged to your Google Sheet</text>
+      <text x="340" y="437" text-anchor="middle" style="font-size:11px;fill:var(--gray)">Your account, your file, your ownership</text>
+      <text x="340" y="453" text-anchor="middle" style="font-size:11px;fill:var(--gray)">Ricardo only views to maintain the system</text>
+      <line x1="340" y1="462" x2="340" y2="486" stroke="var(--black)" stroke-width="1" marker-end="url(#dfarrow)"/>
+      <rect x="180" y="486" width="320" height="54" rx="8" fill="#f5f5f5" stroke="var(--black)" stroke-width="0.75"/>
+      <text x="340" y="507" text-anchor="middle" style="font-size:13px;font-weight:500;fill:var(--black)">Your live dashboard updates</text>
+      <text x="340" y="526" text-anchor="middle" style="font-size:11px;fill:var(--gray)">Spend, categories, price alerts — visible to you</text>
+      <rect x="30" y="144" width="120" height="54" rx="6" fill="none" stroke="var(--gray)" stroke-width="0.5" stroke-dasharray="4 3"/>
+      <text x="90" y="164" text-anchor="middle" style="font-size:11px;font-weight:500;fill:var(--black)">Your Google</text>
+      <text x="90" y="180" text-anchor="middle" style="font-size:11px;font-weight:500;fill:var(--black)">account</text>
+      <text x="90" y="193" text-anchor="middle" style="font-size:10px;fill:var(--green)">★ You own this</text>
+      <line x1="150" y1="171" x2="180" y2="171" stroke="var(--gray)" stroke-width="0.5" stroke-dasharray="3 3"/>
+      <rect x="530" y="222" width="120" height="64" rx="6" fill="none" stroke="var(--gray)" stroke-width="0.5" stroke-dasharray="4 3"/>
+      <text x="590" y="244" text-anchor="middle" style="font-size:11px;font-weight:500;fill:var(--black)">3rd party</text>
+      <text x="590" y="260" text-anchor="middle" style="font-size:10px;fill:var(--gray)">Make.com</text>
+      <text x="590" y="274" text-anchor="middle" style="font-size:10px;fill:var(--gray)">Google Gemini</text>
+      <text x="590" y="279" text-anchor="middle" style="font-size:9px;fill:var(--gray)">No data stored</text>
+      <line x1="500" y1="254" x2="530" y2="254" stroke="var(--gray)" stroke-width="0.5" stroke-dasharray="3 3"/>
+      <line x1="500" y1="342" x2="530" y2="342" stroke="var(--gray)" stroke-width="0.5" stroke-dasharray="3 3"/>
+      <rect x="30" y="398" width="120" height="64" rx="6" fill="none" stroke="var(--gray)" stroke-width="0.5" stroke-dasharray="4 3"/>
+      <text x="90" y="420" text-anchor="middle" style="font-size:11px;font-weight:500;fill:var(--black)">Your Google</text>
+      <text x="90" y="436" text-anchor="middle" style="font-size:11px;font-weight:500;fill:var(--black)">Sheet</text>
+      <text x="90" y="452" text-anchor="middle" style="font-size:10px;fill:var(--green)">★ You own this</text>
+      <line x1="150" y1="430" x2="180" y2="430" stroke="var(--gray)" stroke-width="0.5" stroke-dasharray="3 3"/>
+    </svg>
+  </div>
+</section>
 <!-- FEATURES — separate section -->
 <section class="features-section" id="features">
   <div class="features-header reveal">
